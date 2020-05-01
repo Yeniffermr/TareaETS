@@ -22,6 +22,7 @@ public class Ejemplo {
         
         System.out.println(tomar_operación("Sumar y restar"));
         
+        System.out.println("Fin");
     }
     
     public static String tomar_decisiones(String decision){            
