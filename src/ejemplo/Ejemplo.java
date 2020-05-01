@@ -17,6 +17,12 @@ public class Ejemplo {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hola");
+        
+        System.out.println(tomar_decisiones("Primera y última decisión"));
+        
     }
     
+    public static String tomar_decisiones(String decision){            
+        return decision;
+    }
 }
