@@ -20,9 +20,15 @@ public class Ejemplo {
         
         System.out.println(tomar_decisiones("Primera y última decisión"));
         
+        System.out.println(tomar_operación("Sumar y restar"));
+        
     }
     
     public static String tomar_decisiones(String decision){            
         return decision;
+    }
+    
+    public static String tomar_operación(String operación){            
+        return operación;
     }
 }
